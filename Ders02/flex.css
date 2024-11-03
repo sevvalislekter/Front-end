@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+}
+.container{
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: darkgray;
+    display: grid;
+    gap: 18px;
+    /* grid-template-columns: repeat(autofit,100px); */
+      
+    
+
+}
+.item{
+    background-color: orange;
+    padding: 20px;
+}

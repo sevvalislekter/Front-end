@@ -1,0 +1,31 @@
+
+
+.link{
+    color: orange;
+
+}
+.link:active{
+    color: green;
+}
+.link:visited{
+    color: blue;
+}
+.link:hover{
+    color: purple;
+}
+.list_item{
+    color: pink;
+    list-style-type: none;
+    font-size: 18px;
+}
+/* .list_item:first-child{
+    color: green;
+} */
+.list_item:nth-child(odd){
+    color: blue;
+}
+p::first-letter{
+    color: blue;
+    font-size: 24px;
+    
+}
